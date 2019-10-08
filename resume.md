@@ -11,7 +11,7 @@ aside:
         {{site.data.resume.name}}
       </div>
       <div class="resume-sub-title">
-      <a href="mailto:{{site.data.resume.email}}"><i class="far fa-envelope"></i></a> | 
+      <a href="_target_"><i class="fa fa-briefcase"></i></a> {{site.data.resume.jobtitle}} | 
       <a href="{{site.data.resume.linkedin}}"><i class="fab fa-linkedin-in"></i></a> | 
       <a href="{{site.data.resume.link}}"><i class="fas fa-globe"></i></a> | 
       <a href="{{site.data.resume.github}}"><i class="fab fa-github"></i></a> | 
@@ -28,7 +28,7 @@ aside:
       {{ exp.title }}
     </div>
     <div class="resume-block-subtitle">
-      <i class="fa fa-calendar"></i> {{ exp.duration }} | {{ exp.company }}
+      <i class="far fa-calendar-alt"></i> {{ exp.duration }} | {{ exp.company }}
     </div>
     <div class="resume-block-content">
       {{ exp.description }}
@@ -46,7 +46,7 @@ aside:
         {{ edu.university }}
       </div>
       <div class="resume-block-subtitle">
-        <i class="fa fa-calendar"></i> {{ edu.duration }} | {{ edu.location }}
+        <i class="far fa-calendar-alt"></i> {{ edu.duration }} | {{ edu.location }}
       </div>
       <div class="resume-block-content">
         {{ edu.major }}
