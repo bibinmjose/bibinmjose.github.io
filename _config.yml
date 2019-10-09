@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://bibinmjose.github.io/mysite/ # the base hostname & protocol for your site
 baseurl : # does not include hostname
-title   : datapoly
+title   : data | poly
 description: # this means to ignore newlines until "Language & timezone"
   Hope you'll find it useful 🙂
 
@@ -38,7 +38,7 @@ author:
   name      : Bibin Jose
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : Data Scientist working across a range of problems in B2B supply-chain - Demand forecasting, Value estimation of assets etc.
+  bio       : All things data and modelling.
   email     : bibinmjose@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name

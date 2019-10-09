@@ -28,10 +28,12 @@ aside:
       {{ exp.title }}
     </div>
     <div class="resume-block-subtitle">
-      <i class="far fa-calendar-alt"></i> {{ exp.duration }} | {{ exp.company }}
+      <i class="far fa-calendar-alt"></i> {{ exp.duration }} | <i class="far fa-building"></i> {{ exp.company }}
     </div>
-    <div class="resume-block-content">
-      {{ exp.description }}
+    <div class="resume-list-content">
+      {% for d in exp.description %}
+      <li> {{ d }} </li>
+      {% endfor %}
     </div>
   </div>
   {% endfor %}
@@ -43,10 +45,10 @@ aside:
     {% for edu in site.data.resume.education %}
     <div class="resume-block">
       <div class="resume-block-title">
-        {{ edu.university }}
+        <i class="fas fa-university"></i> {{ edu.university }}
       </div>
       <div class="resume-block-subtitle">
-        <i class="far fa-calendar-alt"></i> {{ edu.duration }} | {{ edu.location }}
+        <i class="far fa-calendar-alt"></i> {{ edu.duration }} | <i class="fas fa-user-graduate"></i> {{ edu.location }}
       </div>
       <div class="resume-block-content">
         {{ edu.major }}
@@ -60,7 +62,7 @@ aside:
   {% for skill in site.data.resume.skills %}
   <div class="resume-block">
     <div class="resume-block-title">
-      {{ skill.title }}
+      <i class="fas fa-wrench"></i> {{ skill.title }}
     </div>
     <div class="resume-block-content">
       {{ skill.items }}
@@ -74,7 +76,7 @@ aside:
   {% for paper in site.data.resume.papers %}
   <div class="resume-block">
     <div class="resume-block-title">
-      {{ paper.title }}
+      <i class="fas fa-graduation-cap"></i> {{ paper.title }}
     </div>
     <div class="resume-block-subtitle">
         {{paper.authors | join: ", " }}
