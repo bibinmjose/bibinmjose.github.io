@@ -12,7 +12,7 @@ education:
   - university: Stony Brook University, 
     duration: Aug 2009 - May 2015
     location: New York, USA
-    major: M.S. and Ph.D. in Mechanical Engineering (Fluid Mechanics)
+    major: M.S and Ph.D in Mechanical Engineering (Fluid Mechanics)
   - university: College of Engineering, Kerala University 
     duration: Aug 2003 - May 2007
     location: Trivandrum, India
@@ -56,7 +56,7 @@ experience:
   - title: Research Assistant
     duration: Aug 2009 - May 2015
     company: Microfluidics and Interfacial Fluid Dynamics Laboratory, NY, USA
-    LINK: http://me.eng.sunysb.edu/~microfluidics/Jose.html
+    link: http://me.eng.sunysb.edu/~microfluidics/Jose.html
     description: 
       - Lorem ipsum dolor sit amet, consectetur 
       - adipiscing elit, sed do eiusmod tempor 
@@ -114,3 +114,9 @@ papers:
       - B M Jose
       - S Darvishi
     journal: Physics of Fluids, 23, 042002 (2011)
+
+
+awards:
+  - Best Poster Award – Annual Student Research Symposium (2012)
+  - Fraçois Frenkel Award – American Physical Society – DFD (2012)
+  - National Science Foundation – Research Mentoring Award (2012, 2011)

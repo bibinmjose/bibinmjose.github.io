@@ -72,6 +72,15 @@ aside:
   {% endfor %}
   </div>
 
+## Awards
+<div class="resume-section-content">
+  {% for award in site.data.resume.awards %}
+    <div class="paper-block-title">
+      <i class="fa fa-trophy"></i> {{ award }}
+    </div>
+  {% endfor %}
+  </div>
+
 ## Publications
 <div class="resume-section-content">
   {% for paper in site.data.resume.papers %}
