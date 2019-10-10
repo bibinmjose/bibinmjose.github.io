@@ -31,10 +31,11 @@ experience:
     duration: June 2019 - Now
     company: Koch Business Solutions, Bangalore
     link: https://india.kochind.com/
-    description: 
-      - After-market value estimation of assests 
-      - Demand forecasting to optimize supply-chain and absorb market shocks. 
-      - Developed python package stiching together multiple algrithms.
+    description:
+      - Worked as an invidual contributor/counsultant on imnplementing various models into production for clients
+      - After-market value estimation of assests
+      - Demand forecasting to optimize supply-chain and absorb market shocks
+      - Developed python package stiching together multiple algrithms
       - Uncertainity estimation of forecast values
       - Causal discovery of timeseries
 
@@ -43,7 +44,8 @@ experience:
     company: Affine Analytics, Bangalore
     link: https://www.affineanalytics.com/
     description:
-      - Worked on various analytics projects, involving Computer Vision using deep neurall-nets (object tracking and image segmentation)
+      - Mentored junior employees and acted as SME on various analytics projects involving Computer Vision
+      - Worked on object tracking and image segmentation
       - Modified tesseract(a google library) to implement OCR on handwritten documents 
   # - title: Data Analyst
   #   duration: Mar 2016 - Feb 2017
