@@ -46,7 +46,7 @@ experience:
     description:
       - Mentored junior employees and acted as SME on various analytics projects involving Computer Vision
       - Worked on object tracking and image segmentation
-      - Modified tesseract(a google library) to implement OCR on handwritten documents 
+      - Modified tesseract(a google library) to implement OCR on handwritten documents
   # - title: Data Analyst
   #   duration: Mar 2016 - Feb 2017
   #   company: Technoconsulting Corp, NJ, USA
