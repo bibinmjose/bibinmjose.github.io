@@ -32,35 +32,35 @@ experience:
     company: Koch Business Solutions, Bangalore
     link: https://india.kochind.com/
     description: 
-      - Lorem ipsum dolor sit amet, 
-      - consectetur adipiscing elit, sed do 
-      - eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-      - ut aliquip ex ea commodo consequat.
+      - After-market value estimation of assests 
+      - Demand forecasting to optimize supply-chain and absorb market shocks. 
+      - Developed python package stiching together multiple algrithms.
+      - Uncertainity estimation of forecast values
+      - Causal discovery of timeseries
+
   - title: Data Scientist
     duration: Jan 2018 - May 2019
     company: Affine Analytics, Bangalore
     link: https://www.affineanalytics.com/
     description:
-      - Duis aute irure dolor in reprehenderit in 
-      - voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      - Excepteur sint occaecat cupidatat non proident, sunt in culpa 
-      - qui officia deserunt mollit anim id est laborum.
-  - title: Data Analyst
-    duration: Mar 2016 - Feb 2017
-    company: Technoconsulting Corp, NJ, USA
-    description: 
-      - Lorem ipsum dolor sit amet, consectetur 
-      - adipiscing elit, sed do eiusmod tempor 
-      - incididunt ut labore et dolore magna aliqua.
+      - Worked on various analytics projects, involving Computer Vision using deep neurall-nets (object tracking and image segmentation)
+      - Modified tesseract(a google library) to implement OCR on handwritten documents 
+  # - title: Data Analyst
+  #   duration: Mar 2016 - Feb 2017
+  #   company: Technoconsulting Corp, NJ, USA
+  #   description: 
+  #     - Lorem ipsum dolor sit amet, consectetur 
+  #     - adipiscing elit, sed do eiusmod tempor 
+  #     - incididunt ut labore et dolore magna aliqua.
   - title: Research Assistant
     duration: Aug 2009 - May 2015
     company: Microfluidics and Interfacial Fluid Dynamics Laboratory, NY, USA
     link: http://me.eng.sunysb.edu/~microfluidics/Jose.html
     description: 
-      - Lorem ipsum dolor sit amet, consectetur 
-      - adipiscing elit, sed do eiusmod tempor 
-      - incididunt ut labore et dolore magna aliqua.
+      - Published 7 papers in top tier journals  
+      - Investigated flow behaviour of highly viscous immiscible two-phase flows in microfluidic channels 
+      - Developed on various image-processing routines to automate data collection from images
+      - Worked on computer-vision techniques like object tracking and segmentation
 papers:
   - title: Physical ageing of spreading droplets in a viscous ambient phase
     link: http://me.eng.sunysb.edu/~microfluidics/publis/2018.Jose.SR.pdf
@@ -103,7 +103,7 @@ papers:
     authors: 
       - T Cubaud
       - B M Jose
-      - S Darvishi 
+      - S Darvishi
       - R Sun
     journal:  International Journal of Multiphase Flow, 39, 29 (2012)
 
@@ -114,7 +114,6 @@ papers:
       - B M Jose
       - S Darvishi
     journal: Physics of Fluids, 23, 042002 (2011)
-
 
 awards:
   - Best Poster Award – Annual Student Research Symposium (2012)
