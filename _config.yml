@@ -37,7 +37,7 @@ author:
   type      : # "person" (default), "organization"
   name      : Bibin Jose
   url       :
-  avatar    : /assets/avatar.png
+  avatar    : https://raw.githubusercontent.com/bibinmjose/mysite/master/assets/avatar.svg
   bio       : All things w.r.t data modelling.
   email     : bibinmjose@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
