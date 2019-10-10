@@ -5,75 +5,112 @@ email: bibinmjose@gmail.com
 linkedin: https://www.linkedin.com/in/bibinmj/
 link: https://bibinmjose.github.io/
 github: https://github.com/bibinmjose
+scholar: https://scholar.google.com/citations?user=Lyyhd9UAAAAJ&hl=en
 place: Bangalore
 
 education:
-  - university: Your First University
-    duration: Jul 2011 - Dec 2012
-    location: Consectetur adipiscing elit
-    major: Lorem ipsum dolor sit amet
-  - university: Your Second University
-    duration: Aug 2007 - Jun 2011
-    location: Ut enim ad minim veniam
-    major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+  - university: Stony Brook University, 
+    duration: Aug 2009 - May 2015
+    location: New York, USA
+    major: M.S. and Ph.D. in Mechanical Engineering (Fluid Mechanics)
+  - university: College of Engineering, Kerala University 
+    duration: Aug 2003 - May 2007
+    location: Trivandrum, India
+    major: B.Tech
 skills:
-  - title: Skill Group 1
-    items: Lorem, Ipsum, Dolor, Sit, Amet
-  - title: Skill Group 2
-    items: Consectetur, Adipiscing, Elit
-  - title: Skill Group 3
-    items: Sed do, Eiusmod, Tempor, Incididunt
+  - title: Languages
+    items: Python, Matlab, R, html
+  - title: Platforms and Version control
+    items: AWS, Sagemaker, EC2, S3, Git
+  - title: Frameworks
+    items: Pytorch, Tensorflow, OpenCV, scikit-learn
+  - title: Other Tools and Strengths
+    items: Markdown, Jekyll, Photoshop, Illustrator, Python package management
 experience:
-  - title: Job Title 1
-    duration: Apr 2016 - Now
-    company: Your 1st, Inc.
+  - title: Data Scientist
+    duration: June 2019 - Now
+    company: Koch Business Solutions, Bangalore
+    link: https://india.kochind.com/
     description: 
       - Lorem ipsum dolor sit amet, 
       - consectetur adipiscing elit, sed do 
       - eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
       - ut aliquip ex ea commodo consequat.
-  - title: Job Title 2
-    duration: Apr 2013 - Mar 2016
-    company: Your 2nd, Inc.
-    description: 
+  - title: Data Scientist
+    duration: Jan 2018 - May 2019
+    company: Affine Analytics, Bangalore
+    link: https://www.affineanalytics.com/
+    description:
       - Duis aute irure dolor in reprehenderit in 
       - voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
       - Excepteur sint occaecat cupidatat non proident, sunt in culpa 
       - qui officia deserunt mollit anim id est laborum.
-  - title: Job Title 3
-    duration: Dec 2011 - Mar 2012
-    company: Your 3rd Co, Ltd.
+  - title: Data Analyst
+    duration: Mar 2016 - Feb 2017
+    company: Technoconsulting Corp, NJ, USA
     description: 
       - Lorem ipsum dolor sit amet, consectetur 
       - adipiscing elit, sed do eiusmod tempor 
       - incididunt ut labore et dolore magna aliqua.
-projects:
-  - name: Project Name 1
-    description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Contributor.
-  - name: Project Name 2
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Creator and maintainer.
-languages:
-  - name: English
-    proficiency: Work proficiency
-  - name: Mandarin Chinese
-    proficiency: Native
-
+  - title: Research Assistant
+    duration: Aug 2009 - May 2015
+    company: Microfluidics and Interfacial Fluid Dynamics Laboratory, NY, USA
+    LINK: http://me.eng.sunysb.edu/~microfluidics/Jose.html
+    description: 
+      - Lorem ipsum dolor sit amet, consectetur 
+      - adipiscing elit, sed do eiusmod tempor 
+      - incididunt ut labore et dolore magna aliqua.
 papers:
-  - title: The Art of Computer Programming
-    authors: 
-      - Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+  - title: Physical ageing of spreading droplets in a viscous ambient phase
+    link: http://me.eng.sunysb.edu/~microfluidics/publis/2018.Jose.SR.pdf
     authors: 
       - B M Jose
-      - Bennett F.H.
-      - Keane M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - D Nandyala
+      - T Cubaud
+      - C E Colosqui 
+    journal: Scientific Reports, 8, 14159 (2018)
 
-  - title: A syntax directed compiler for Algol 60
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+  - title:  Role of viscosity coefficients during spreading and coalescence of droplets in liquids
+    link: https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.2.111601
+    authors: 
+      - B M Jose
+      - T Cubaud
+    journal: Physical Review Fluids, 2, 111601(R) (2017)
+
+  - title:  Dynamic Wetting, Self-assembly, and Coalescence of Droplets in Microchannels [Thesis]
+    link: https://ir.stonybrook.edu/xmlui/handle/11401/76428
+    authors: 
+      - B M Jose
+    journal: Stony Brook University, NY. (2015)
+
+  - title: Formation and dynamics of partially wetting droplets in square microchannels
+    link: https://pubs.rsc.org/en/content/articlelanding/2014/ra/c4ra00654b#!divAbstract
+    authors: 
+      - B M Jose
+      - T Cubaud
+    journal: RSC Advances, 4, 14962 (2014)
+
+  - title: Droplet arrangement and coalescence in diverging/converging microchannels
+    link: https://link.springer.com/article/10.1007%2Fs10404-011-0909-z
+    authors: 
+      - B M Jose
+      - T Cubaud
+    journal: Microfluidics and Nanofluidics, 12, 687 (2012)
+
+  - title:  Droplet breakup and viscosity-stratified flows in microchannels
+    link: http://www.sciencedirect.com/science/article/pii/S0301932211002291
+    authors: 
+      - T Cubaud
+      - B M Jose
+      - S Darvishi 
+      - R Sun
+    journal:  International Journal of Multiphase Flow, 39, 29 (2012)
+
+  - title:  Folded micro-threads - Role of viscosity and interfacial tension
+    link: http://me.eng.sunysb.edu/~microfluidics/publis/2011.Cubaud.POF.pdf
+    authors: 
+      - T Cubaud
+      - B M Jose
+      - S Darvishi
+    journal: Physics of Fluids, 23, 042002 (2011)

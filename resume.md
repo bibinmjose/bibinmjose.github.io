@@ -15,6 +15,7 @@ aside:
       <a href="{{site.data.resume.linkedin}}"><i class="fab fa-linkedin-in"></i></a> | 
       <a href="{{site.data.resume.link}}"><i class="fas fa-globe"></i></a> | 
       <a href="{{site.data.resume.github}}"><i class="fab fa-github"></i></a> | 
+      <a href="{{site.data.resume.scholar}}"><i class="fas fa-flask"></i></a> |
       <a><i class="fas fa-map-marker-alt"></i></a> {{site.data.resume.place}}
       </div>
   </div>
@@ -28,7 +29,7 @@ aside:
       {{ exp.title }}
     </div>
     <div class="resume-block-subtitle">
-      <i class="far fa-calendar-alt"></i> {{ exp.duration }} | <i class="far fa-building"></i> {{ exp.company }}
+      <i class="far fa-calendar-alt"></i> {{ exp.duration }} | <a href="{{exp.link}}"><i class="far fa-building"></i></a> {{ exp.company }}
     </div>
     <div class="resume-list-content">
       {% for d in exp.description %}
@@ -74,13 +75,11 @@ aside:
 ## Publications
 <div class="resume-section-content">
   {% for paper in site.data.resume.papers %}
-  <div class="resume-block">
-    <div class="resume-block-title">
-      <i class="fas fa-graduation-cap"></i> {{ paper.title }}
+    <div class="paper-block-title">
+      <i class="fas fa-book"></i> {{ paper.title }}, <a href="{{paper.link}}">{{ paper.journal }}</a>
     </div>
-    <div class="resume-block-subtitle">
+    <div class="paper-block-subtitle">
         {{paper.authors | join: ", " }}
     </div>
-  </div>
   {% endfor %}
 </div>

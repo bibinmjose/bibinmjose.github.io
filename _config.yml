@@ -22,7 +22,7 @@ url     : https://bibinmjose.github.io/mysite/ # the base hostname & protocol fo
 baseurl : # does not include hostname
 title   : data | poly
 description: # this means to ignore newlines until "Language & timezone"
-  Hope you'll find it useful 🙂
+  All things data 🙂 !!!
 
 
 ## => Language and Timezone
