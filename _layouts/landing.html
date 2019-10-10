@@ -13,11 +13,11 @@ article_header:
     {%- include snippets/get-nav-url.html path=_section.background_image.src -%}
     {%- assign _url = __return -%}
     {%- if _section.theme == 'light' -%}
-      <section class="hero hero--center hero--light" id="hero-{{ forloop.index }}"
-    {%- elsif _section.theme == 'dark' -%}
-      <section class="hero hero--center hero--dark" id="hero-{{ forloop.index }}"
+      <section class="hero hero--center hero--light" id="hero-{{ forloop.index }}"></section>
+    {%- elsif _section.theme == 'dark' -%}>
+      <section class="hero hero--center hero--dark" id="hero-{{ forloop.index }}"></section>
     {%- else -%}
-      <section class="hero hero--center" id="hero-{{ forloop.index }}"
+      <section class="hero hero--center" id="hero-{{ forloop.index }}"></section>
     {%- endif -%}
     {%- if _section.background_color -%}
         style="background-image: url({{ _url }}); background-color: {{ _section.background_color }};">
