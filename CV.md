@@ -46,13 +46,10 @@ aside:
     {% for edu in site.data.resume.education %}
     <div class="resume-block">
       <div class="resume-block-title">
-        <i class="fas fa-university"></i> {{ edu.university }}
+        <i class="fas fa-university"></i> {{ edu.university }}, {{ edu.location }}
       </div>
       <div class="resume-block-subtitle">
-        <i class="far fa-calendar-alt"></i> {{ edu.duration }} | <i class="fas fa-user-graduate"></i> {{ edu.location }}
-      </div>
-      <div class="resume-block-content">
-        {{ edu.major }}
+        <i class="far fa-calendar-alt"></i> {{ edu.duration }} | <i class="fas fa-user-graduate"></i> {{ edu.major }}
       </div>
     </div>
     {% endfor %}
