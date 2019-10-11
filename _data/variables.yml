@@ -11,6 +11,7 @@ default:
   mathjax_autoNumber: false
   mermaid: false
   chart: false
+  d3: false
   toc:
     selectors: 'h1,h2,h3'
   sources: bootcdn
@@ -51,6 +52,8 @@ sources:
     valine: 'https://unpkg.com/valine/dist/Valine.min.js' # bootcdn not available
     mathjax: 'https://cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML'
     mermaid: 'https://cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js'
+    d3: 'https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js'
+    d3selection: 'https://cdnjs.cloudflare.com/ajax/libs/d3-selection/1.2.0/d3-selection.min.js'
   unpkg:
     font_awesome: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css'
     jquery: 'https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'
@@ -62,3 +65,6 @@ sources:
     valine: 'https//unpkg.com/valine/dist/Valine.min.js'
     mathjax: 'https://unpkg.com/mathjax@2.7.4/unpacked/MathJax.js?config=TeX-MML-AM_CHTML'
     mermaid: 'https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js'
+    d3: 'https://unpkg.com/browse/d3@5.12.0/dist/d3.js'
+    # d3selection: 'https://unpkg.com/browse/d3@5.12.0/dist/d3.node.js'
+    d3selection: 'https://cdnjs.cloudflare.com/ajax/libs/d3-selection/1.2.0/d3-selection.min.js'
