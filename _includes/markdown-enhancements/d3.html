@@ -1,5 +1,7 @@
 {%- include snippets/get-sources.html -%}
 {%- assign _sources = __return -%}
 
-<script src={{ _sources.d3 }} charset="utf-8"> </script>
-<script src={{ _sources.d3selection }} charset="utf-8"> </script>
+<script type="text/javascript" src="{{ _sources.jquery }}" async> </script>
+<!-- <script type="text/javascript" src="{{ _sources.tipsy }}" async> </script> -->
+<script type="text/javascript" src="{{ _sources.d3 }}" charset="utf-8" async> </script>
+<script type="text/javascript" src="{{ _sources.d3selection }}" charset="utf-8" async></script>

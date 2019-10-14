@@ -44,6 +44,7 @@ sources:
   bootcdn:
     font_awesome: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css'
     jquery: 'https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js'
+    tipsy: 'https://cdnjs.cloudflare.com/ajax/libs/jquery.tipsy/1.0.3/jquery.tipsy.js'
     leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js'
     chart: 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.bundle.min.js'
     gitalk:
@@ -54,6 +55,7 @@ sources:
     mermaid: 'https://cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js'
     d3: 'https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js'
     d3selection: 'https://cdnjs.cloudflare.com/ajax/libs/d3-selection/1.2.0/d3-selection.min.js'
+    roughviz: 'https://unpkg.com/rough-viz@1.0.4'
   unpkg:
     font_awesome: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css'
     jquery: 'https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'
@@ -68,3 +70,4 @@ sources:
     d3: 'https://unpkg.com/browse/d3@5.12.0/dist/d3.js'
     # d3selection: 'https://unpkg.com/browse/d3@5.12.0/dist/d3.node.js'
     d3selection: 'https://cdnjs.cloudflare.com/ajax/libs/d3-selection/1.2.0/d3-selection.min.js'
+    roughviz: 'https://unpkg.com/rough-viz@1.0.4'
