@@ -1,4 +1,13 @@
 {%- include snippets/get-sources.html -%}
 {%- assign _sources = __return -%}
 
-<script type="text/javascript" src="{{ _sources.roughviz}}" async> </script>
+<script>
+  window.Lazyload.js(['{{ _sources.jquery }}', '{{ _sources.roughviz }}'], function(){
+      $this = $(this);
+      // $canvas = $('<canvas></canvas>');
+      _text = $this.text();
+      // $this.text('').append($canvas);
+      // console.log(this)
+      (_text) && (new roughViz.Donut(JSON.parse(_text)));
+    });
+</script>
