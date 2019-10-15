@@ -55,7 +55,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: bibinmjose/mysite
+repository: https://github.com/bibinmjose/mysite
 repository_tree: master
 
 
