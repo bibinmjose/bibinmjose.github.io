@@ -27,8 +27,7 @@ titles:
     </div>
     <div class="item__description">
       <p>
-      <!--   -->
-      I started this blog as an aggregator of interesting stuff I pick up. This keeps me in track of what I've learnt although time seldom permits frequent updates. Hope you could find something useful here. I am also grateful to <a href="https://github.com/kitian616/jekyll-TeXt-theme">Tian Qi</a> for this theme.
+      I started this blog to aggregate interesting stuff I pick up. This keeps me in track of what I've learnt although time seldom permits frequent updates. Hope you could find something useful here. I am also grateful to <a href="https://github.com/kitian616/jekyll-TeXt-theme">Tian Qi</a> for this theme.
       </p>
     </div>
   </div>
