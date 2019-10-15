@@ -23,7 +23,7 @@ titles:
     console.log("{{ site.url}}")
     console.log("{{ site.baseurl}}")
   </script>
-    <img class="image image--sm" src="{{ site.url| append: site.baseurl| append: site.author.avatar}}"/>
+    <img class="image image--sm" src="{{site.author.avatar}}"/>
   </div>
   <div class="item__content">
     <div class="item__header">
