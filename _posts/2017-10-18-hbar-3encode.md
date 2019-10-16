@@ -15,13 +15,13 @@ The chart below explains gender difference in school performance in different st
 
 `h_per` = 
 
-| State 	|    Boy    	|   Girl  	|   diff   	| Boys_better 	|
-|:-----:	|:---------:	|:-------:	|:--------:	|:-----------:	|
-|   JH  	| 38.335000 	| 35.1925 	| 3.142500 	|     True    	|
-|   BR  	| 35.000000 	| 37.0000 	| 2.000000 	|     True    	|
-|   UK  	| 34.965000 	| 33.6750 	| 1.290000 	|     True    	|
-|   UP  	| 44.365000 	| 43.3350 	| 1.030000 	|     True    	|
-
+| State 	|  Boy 	| Boy_count 	| Girl 	| Girl_count 	| diff 	| Boys_better 	|
+|:-----:	|:----:	|:---------:	|:----:	|:----------:	|:----:	|:-----------:	|
+|   JH  	| 38.0 	|    971    	| 35.0 	|     956    	|  3.0 	|     True    	|
+|   BR  	| 35.8 	|    3550   	| 37.0 	|    4093    	| -1.2 	|    False    	|
+|   UK  	| 34.5 	|    2438   	| 33.0 	|    2543    	|  1.5 	|     True    	|
+|   UP  	| 44.0 	|    3407   	| 43.0 	|    3757    	|  1.0 	|     True    	|
+|   KL  	| 35.0 	|    3346   	| 40.0 	|    3401    	| -5.0 	|    False    	|
 
 Our aim is to encode data into
 
@@ -83,7 +83,7 @@ Final touch, placing legends, patches and labels on appropriate places.
 ax.set_ylim(-1, len(h_per.index)+1)
 ax.set_yticks(h_per.index)
 ax.set_yticklabels(h_per['State'])
-ax.axvline(x= 0, color='k', linewidth = 0.75, ymax = 0.94)
+ax.axvline(x= 0, color='k', linewidth = 0.75, ymax = 0.8)
 
 # legend
 red_patch = mpatches.Patch(color='red', label='Boys Perform Better')
