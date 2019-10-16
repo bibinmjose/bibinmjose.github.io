@@ -1,6 +1,6 @@
 ---
-title: Horizontal bar chart with 3 encodings using matplotlib
-tags: python visualization matplotlib
+title: Horizontal bar chart with 3 encodings
+tags: python visualization
 aside:
   toc: true
   selectors: 'h3'
@@ -10,7 +10,7 @@ author: Bibin Jose
 The chart below explains gender difference in school performance in different states of India. In this post I will describe how to create a chart like one below with a dummy dataframe `h_per`. 
 
 <!-- more -->
-<img src="/assets/20171018/hbarchart.png" alt="hbarchart" align="middle" height="700" width="273">
+<img src="/assets/20171018/hbarchart.png" alt="hbarchart" height="700" width="273">
 
 
 `h_per` = 
@@ -76,7 +76,7 @@ ax2.set_xlabel("Median performance difference (Boys - Girls)")
 
 ### Step 4
 
-Final touch, placing legends, patches and labels on appropriate places.
+Final touch; place legends, patches and labels on appropriate places.
 
 ```python
 # y-axis labels
