@@ -17,7 +17,7 @@ titles:
     </div>
     <div class="item__description">
       <p>
-      I started this blog to aggregate interesting stuff I pick up. Although this keeps me in track of what I've learnt, time seldom permits frequent updates. Hope you could find something useful here. I am also grateful to <a href="https://github.com/kitian616/jekyll-TeXt-theme">Tian Qi</a> for this theme.
+      I started this blog to aggregate interesting stuff I pick up. Although this keeps me in track of what I've learnt, time seldom permits frequent updates. Hope you could find something useful here. I am also grateful to <a href="https://github.com/kitian616/jekyll-TeXt-theme">Tian Qi</a> for this theme. Currently, I am migrating all things I have written across multiple platforms to this jekyll site. I have to admit, <b>I<span style='font-size:15px;'> &#128150;</span> Jekyll</b> that I keep learning about it everyday.
       </p>
     </div>
   </div>
