@@ -32,11 +32,11 @@ experience:
     company: Koch Business Solutions, Bangalore
     link: https://india.kochind.com/
     description:
-      - Worked as an invidual contributor/counsultant on imnplementing various models into production for clients
-      - After-market value estimation of assests
+      - Worked as an invidual contributor/counsultant on implementing various models into production for clients
+      - After-market value estimation of assets
       - Demand forecasting to optimize supply-chain and absorb market shocks
       - Developed python package stiching together multiple algrithms
-      - Uncertainity estimation of forecast values
+      - Uncertainty estimation of forecast values
       - Causal discovery of timeseries
 
   - title: Data Scientist
@@ -118,7 +118,7 @@ papers:
     journal: Physics of Fluids, 23, 042002 (2011)
 
 awards:
-  - Transfomer award (Affine Analytics)
+  - Transformer award (Affine Analytics)
   - Best Poster Award – Annual Student Research Symposium (2012)
   - Fraçois Frenkel Award – American Physical Society – DFD (2012)
   - National Science Foundation – Research Mentoring Award (2012, 2011)
