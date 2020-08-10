@@ -1,3 +1,22 @@
+# Run development enviroment using docker
+
+Map current folder `pwd` to `/app` folder in container and start `ruby:2.6` image with `bash` inside the working directory `/app`.
+
+```bash
+docker pull ruby:2.6
+docker run --rm -it -p 8080:4000 -v ${pwd}:/app -w "/app" ruby:2.6 bash
+```
+
+Once container is started, run bundle to install all gems within the container.
+Start `jekyll serve` to run on serve on port 4000.
+Go to `localhost:8080` since port `4000` is mapped to `8080`
+
+```bash
+bundle install
+bundle exec jekyll serve --host=0.0.0.0 --port 8080
+```
+
+
 # [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
 [![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)

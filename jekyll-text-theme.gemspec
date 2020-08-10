@@ -21,7 +21,9 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.0"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.9.2"
   spec.add_runtime_dependency "jemoji", "~> 0.8"
+  spec.add_runtime_dependency "kramdown"
+  spec.add_runtime_dependency "kramdown-parser-gfm"
 
-  spec.add_development_dependency "bundler", "~> 1.12"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler", "~> 1.17"
+  spec.add_development_dependency "rake", ">= 12.0"
 end

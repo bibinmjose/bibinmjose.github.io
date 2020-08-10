@@ -188,6 +188,6 @@ plot_all(img2,c2,A)
 
 
 ## Perspective
-This method can be used to create a labeled dataset mapping __image__=>__labels__ to be trained on an algorithm. For example after we map `phone_1` => `crack_1 %`, we may take multuple images at various different angles for that particular phone _i.e_ `phone1` while mapping all of them to the same `crack_1 %`. By aggregating images from different phone models, we can create a reliable dataset for advanced modelling techniques such as neural networks.
+This method can be used to create a labeled dataset mapping __image__=>__labels__ to be trained on an algorithm. For example after we map `phone_1` => `crack_1 %`, we may take multuple images at various different angles for that particular phone _i.e_ `phone_1` while mapping all of them to the same `crack_1 %`. By aggregating images from different phone models, we can create a reliable dataset for advanced modelling techniques such as neural networks.
 
 <br>
