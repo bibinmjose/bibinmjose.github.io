@@ -1,8 +1,8 @@
 ---
 title: Some useful commands on Linux
-tags: micorblog linux shell
+tags: linux shell
 aside:
-  toc: false
+  toc: true
   selectors: 'h3'
 key: 20180813
 header: true
