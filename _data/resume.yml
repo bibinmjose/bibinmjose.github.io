@@ -25,14 +25,14 @@ skills:
   - title: Frameworks
     items: Pytorch, Tensorflow, OpenCV, scikit-learn
   - title: Other Tools and Strengths
-    items: Markdown, Jekyll, gitlab-CI/CD, Photoshop, Illustrator, Python package management
+    items: Markdown, Jekyll, gitlab-CI/CD, Photoshop, Illustrator, Python package development
 experience:
   - title: Data Scientist
     duration: June 2019 - Now
     company: Koch Business Solutions, Bangalore
     link: https://india.kochind.com/
     description:
-      - Worked as a counsultant on implementing various models into production
+      - Worked extensively on implementing various models into production
       - Estimation of after-market value of assets
       - Demand forecasting to optimize supply-chain and absorb market shocks
       - Developed python package stiching together multiple algorithms
@@ -45,7 +45,7 @@ experience:
     link: https://www.affineanalytics.com/
     description:
       - Mentored junior employees and acted as SME on various analytics projects involving Computer Vision
-      - Worked on object tracking and image segmentation
+      - Worked on object tracking and image segmentation, classification
       - Modified tesseract(a google library) to implement OCR on handwritten documents
   
   - title: Data Scientist
