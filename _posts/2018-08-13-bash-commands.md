@@ -26,7 +26,7 @@ That being said, I tend to favour installing _bobby russell_'s [ohmyzsh](https:/
 6. Checking sytem file size: `df -ah`
 7. Checking file size in directory: `du -sh *`
 8. Disk partition and disk usage: `lsblk`
-9. Printing output of a command into a log file: `nohup` . For _eg:_ `nohup lsblk` will output the result of `lsblk` into a log file in the current folder.
+9. Printing output of a command into a log file: `nohup` . For -eg:_ `nohup lsblk` will output the result of `lsblk` into a log file in the current folder.
     - `nohup python -u script.py  > file.log 2>&1` =>  Output and error to same `file.log`
     - `nohup myprogram > myprogram.out 2> myprogram.err` => redirect standard output and standard error to different files
 10. Opening the current folder (GUI) from terminal: ​​`nautilus .`
