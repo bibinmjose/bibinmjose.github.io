@@ -17,9 +17,9 @@ article_header:
     src: "assets/20180813/sai-kiran-anagani-Tjbk79TARiE-unsplash.jpg"
 ---
 
-I periodically update this list with useful commands for linux which I routinely use.
-I used __ubuntu__ based commands since it is the most popular, although most of them are transfereable to other linux distros. But nowadays I use __Manjaro__, an arch based flavour.
-That being said, I tend to favour installing _bobby russell_'s [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) to make life easier.
+I periodically update this list with useful bash commands I routinely use.
+Here, I have used __ubuntu__ based commands for its popularity, although most of them are transfereable to other distros like __Manjaro__ [which I use] by changing package manager from _apt_ to _pacman_.
+That being said, I tend to favour installing _robby russell_'s [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) to make life easier.
 
 
 # Terminal Commands
