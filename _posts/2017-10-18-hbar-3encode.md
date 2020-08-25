@@ -1,11 +1,22 @@
 ---
 title: Horizontal bar chart with 3 encodings
+mode: immersive
 tags: python visualization
 aside:
   toc: true
   selectors: 'h3'
 key: 20171018
 author: Bibin Jose
+cover: "/assets/cover.jpg"
+show_edit_on_github: false
+header: 
+  theme: dark
+  # background: '#81BF5E'
+article_header:
+  type: cover
+  image:
+    gradient: linear-gradient(135deg, rgba(255, 69, 0, .5), rgba(255, 100, 0, .2))
+    src: "assets/20171018/zakaria-ahada-VGR_ReUCqNw-unsplash.jpg"
 ---
 The chart below explains gender difference in school performance in different states of India. In this post I will describe how to create a chart like one below with a dummy dataframe `h_per`. 
 
