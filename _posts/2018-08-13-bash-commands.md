@@ -1,18 +1,24 @@
 ---
 title: Some useful commands on Linux
 tags: linux shell
+mode: immersive
 aside:
   toc: true
   selectors: 'h3'
 key: 20180813
+show_title: false
+author: Bibin
+cover: "/assets/20180813/thumb.png"
+show_edit_on_github: false
 header: true
-author: Bibin Jose
+article_header:
+  type: cover
+  image:
+    src: "assets/20180813/sai-kiran-anagani-Tjbk79TARiE-unsplash.jpg"
 ---
 
-![bash_logo](/assets/20180813/bash.png)
-
-This is a page where I periodically update this list with useful commands for linux which I routinely use.
-I tend to favour ubuntu based commands since it is the most popular, although most of them are transfereable to other linux distros.
+I periodically update this list with useful commands for linux which I routinely use.
+I used __ubuntu__ based commands since it is the most popular, although most of them are transfereable to other linux distros. But nowadays I use __Manjaro__, an arch based flavour.
 That being said, I tend to favour installing _bobby russell_'s [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) to make life easier.
 
 
