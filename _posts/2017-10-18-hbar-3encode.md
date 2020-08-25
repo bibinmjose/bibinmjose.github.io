@@ -9,8 +9,8 @@ key: 20171018
 author: Bibin Jose
 cover: "/assets/cover.jpg"
 show_edit_on_github: false
-header: 
-  theme: dark
+# header: 
+#   theme: dark
   # background: '#81BF5E'
 article_header:
   type: cover
