@@ -1,11 +1,22 @@
 ---
 title: A simple estimation of cracked phone-screen
 tags: image-processing python image
+mode: immersive
 aside:
   toc: true
   selectors: 'h3'
 key: 20180105
-author: Bibin Jose
+show_title: false
+author: Bibin
+cover: "/assets/20180105/thumb.png"
+show_edit_on_github: false
+header: true
+article_header:
+  type: cover
+  image:
+    src: "assets/20180105/age-barros-fKAjOxgZNPg-unsplash.jpg"
+
+
 ---
 ## Estimating the crack
 

@@ -6,23 +6,18 @@ titles:
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
-  zh-Hans : &ZH_HANS  主页
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  主頁
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       홈
-  ko-KR   : *KO
 show_title: false
 articles:
   data_source: paginator.posts
+  type: item
+  size: sm
   article_type: BlogPosting
-  show_cover: false
-  show_excerpt: true
+  show_cover: true
+  cover_size: sm
+  show_excerpt: false
   show_readmore: true
   show_info: true
+  excerpt_type: text
 ---
 <div class="layout--home">
   {%- include paginator.html -%}
