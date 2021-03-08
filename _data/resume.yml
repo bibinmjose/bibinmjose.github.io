@@ -21,11 +21,11 @@ skills:
   - title: Languages
     items: Python, Matlab, R, html, Amazon States Language
   - title: Platforms and Version control
-    items: AWS, Sagemaker, EC2, S3, Git, Step-Functions, Glue, IAM
+    items: AWS, SageMaker, EC2, S3, Git, Step-Functions, Glue
   - title: Frameworks
     items: Pytorch, Tensorflow, OpenCV, scikit-learn
   - title: Other Tools and Strengths
-    items: Markdown, Jekyll, gitlab-CI/CD, Photoshop, Illustrator, Python package development
+    items: Markdown, Jekyll, gitlab-CI/CD, Circle-CI, Photoshop, Illustrator, Python Package Development
 experience:
   - title: Data Scientist
     duration: June 2019 - Now
