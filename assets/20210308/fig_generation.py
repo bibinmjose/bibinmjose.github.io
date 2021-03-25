@@ -19,6 +19,34 @@ def quantile_loss(target, forecast, q):
     return round(2*np.sum(np.abs((forecast-target)*((target<=forecast)-q))),2)
 
 target = 5
+
+
+with plt.style.context('seaborn'):
+    quant = [0.0,0.1,0.2,0.5,0.7,0.8,0.9,1.0]
+
+    p_lst = np.arange(0,11)
+    error_lst = p_lst-target
+
+
+    fig, ax = plt.subplots(nrows=2, ncols=4 , figsize=(14,6))
+
+    for i, ax in enumerate(ax.flatten()):
+        loss_lst = [quantile_loss(p,target,quant[i]) for p in p_lst]
+        ax.plot(error_lst,loss_lst,color='r', alpha=0.4)
+
+        ax.set_title(f"Percentile = {quant[i]}")
+
+        ax.set_ylabel("Quantile Loss")
+        ax.set_ylim(-0.5,10.5)
+
+        ax.set_xlabel("Error (Prediction-Target)")
+        ax.set_xlim(-5.5,5.5)
+
+    plt.tight_layout()
+    plt.show()
+    # plt.savefig('loss_v_err.png', dpi=100,
+    #             orientation='portrait', papertype=None, format='png')
+
 quantiles = [0.1,0.3,0.5,0.7,0.9]
 
 loss_dict = {}
@@ -29,7 +57,8 @@ for p, vals in preds.items():
         loss_[q]={'l':quantile_loss(target,pred,q),'c':coverage(target,pred)}
     loss_dict[p]=loss_
 
-# fig, ax = plt.subplots(nrows=2,ncols=4, figsize=(12,4))
+
+
 with plt.style.context('seaborn'):
     ax = pred_df.plot(kind='kde', subplots=True, color='b', legend=False, alpha=0.4,
                       sharey=True, sharex=True, layout=(2,4), figsize=(16,7))

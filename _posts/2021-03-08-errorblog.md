@@ -12,6 +12,7 @@ aside:
 key: 20210308
 author: Bibin Jose
 cover: "/assets/20210308/thumb.png"
+show_edit_on_github: false
 article_header:
   type: cover
   image:
@@ -105,6 +106,10 @@ def quantile_loss(target, forecast, q):
     return (2*np.sum(np.abs((forecast-target)*((target<=forecast)-q))))
 ```
 
+The figure below will help us understand the difference in weighting on error for loss calculation. They are generted using `quantile_loss`. Particularly we should look at the difference in weighting for positive and negative error for a given percentile. For percentile `q==0.5`, weigthing in loss function equally penalize both positive and negative errors. For the lowest percentile `q==0.0` loss function ignores positive error, the quantile loss make sure that the predicted `0.0`<sup>th</sup> percentile is the lowest expectation. Depending on the percentile, the positive and negative error is weighted differently. The multiplication by `2` in `quantile_loss` is a convenience which ensures the return of a magnitude of `2 x 0.5 x abs(forecast-target)` for `q==0.5`.
+
+![Alt text][img_0]
+
 Given a target value(=5 as _red_ dot), the plots below gives an intuition of quantile-loss and coverage for various predicted distribution(in _blue_) for `percentiles=[0.1,0.3,0.5,0.7,0.9]`.
 
 ![Alt text][img_1]
@@ -140,3 +145,4 @@ With all things mentioned above, a refined forecasting system must reflect the d
 2. [Hyndman Textbook](https://otexts.com/fpp2/accuracy.html)
 
 [img_1]:/assets/20210308/loss_distro.png "Quantile Loss explained for various distributions"
+[img_0]:/assets/20210308/loss_v_err.png "Quantile Loss as a  function of Error for various quantiles"
