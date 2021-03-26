@@ -54,7 +54,10 @@ for p, vals in preds.items():
     loss_ = {}
     for q in quantiles:
         pred = np.quantile(vals, q)
-        loss_[q]={'l':quantile_loss(target,pred,q),'c':coverage(target,pred)}
+        loss_[q]={'l':quantile_loss(target,pred,q),
+                  'c':coverage(target,pred), 
+                  'e':round(pred-target,1)
+                  }
     loss_dict[p]=loss_
 
 

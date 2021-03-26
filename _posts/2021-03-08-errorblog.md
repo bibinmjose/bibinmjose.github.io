@@ -110,7 +110,7 @@ The figure below will help us understand the difference in weighting on error fo
 
 ![Alt text][img_0]
 
-Given a target value(=5 as _red_ dot), the plots below gives an intuition of quantile-loss and coverage for various predicted distribution(in _blue_) for `percentiles=[0.1,0.3,0.5,0.7,0.9]`.
+Given a target value(=5 as _red_ dot) and a predicted distribution( _blue_), the plots below gives an intuition of quantile-loss "l", coverage "c" and error "e"_=(prediction-target)_ for `percentiles=[0.1,0.3,0.5,0.7,0.9]`.
 
 ![Alt text][img_1]
 
@@ -145,4 +145,4 @@ With all things mentioned above, a refined forecasting system must reflect the d
 2. [Hyndman Textbook](https://otexts.com/fpp2/accuracy.html)
 
 [img_1]:/assets/20210308/loss_distro.png "Quantile Loss explained for various distributions"
-[img_0]:/assets/20210308/loss_v_err.png "Quantile Loss as a  function of Error for various quantiles"
+[img_0]:/assets/20210308/loss_v_err.png "Quantile Loss vs. error for various quantiles"
