@@ -94,7 +94,7 @@ There are some instances where some key decisions are made based on the uncertai
 
 ### Quantile Loss and Coverage
 
-Quantiles divide a probability distribution into regions of equal probability. Quantile loss measure the deviation of each predicted quantile (thereby learning the whole distribution) from the target and should be seen in the context of "coverage". Coverage gives the proportion of predictions north of actuals hence we can estimate whether each quantile is under/over forecasting. For an accurately predicted distribution, higher quantiles should give higher coverage as they give a higher expectation than the median and vice versa.
+Quantiles divide a probability distribution into regions of equal probability. Although named as quantile loss, the function can measure the deviation of each predicted percentile (thereby learning the whole distribution) from the target by passing the percentile as a parameter _q_ to loss function. Quantile loss should be seen in the context of _Coverage_ which gives the proportion of predictions north of actualsand helps us estimating whether each percentile is under/over forecasting. Given a more accurate predicted distribution, higher percentile should give higher coverage as they give a higher expectation than the median and vice versa.
 
 ```python
 ## coverage

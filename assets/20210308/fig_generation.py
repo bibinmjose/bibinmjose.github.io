@@ -16,7 +16,8 @@ def coverage(target, forecast):
 
 ## quantile loss
 def quantile_loss(target, forecast, q):
-    return round(2*np.sum(np.abs((forecast-target)*((target<=forecast)-q))),2)
+    l = 2*np.sum(np.abs((forecast - target) * ((target <= forecast) - q)))
+    return round(l,2)
 
 target = 5
 

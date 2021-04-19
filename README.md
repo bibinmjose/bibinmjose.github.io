@@ -16,7 +16,6 @@ bundle install
 bundle exec jekyll serve --host=0.0.0.0 --port 8080
 ```
 
-
 # [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
 [![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
