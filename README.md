@@ -13,7 +13,7 @@ Go to `localhost:8080` since port `4000` is mapped to `8080`
 
 ```bash
 bundle install
-bundle exec jekyll serve --host=0.0.0.0 --port 8080
+bundle exec jekyll serve --host=0.0.0.0 --port 4000
 ```
 
 # [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
