@@ -3,11 +3,11 @@ title: Creating Layers in AWS Lambda
 tags: DevOps AWS
 mode: immersive
 aside:
-  toc: true
-  selectors: "h3,h4"
+    toc: true
+    selectors: 'h3'
 key: 20210421
 author: Bibin Jose
-cover: "/assets/20210421/thumb.png"
+cover: "/assets/20210421/thumb.jpg"
 show_edit_on_github: false
 article_header:
   type: cover
